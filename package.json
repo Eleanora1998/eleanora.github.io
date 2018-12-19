@@ -1,0 +1,18 @@
+{
+  "name": "website",
+  "scripts": {
+    "build": "bundle install && bundle exec jekyll build",
+    "serve": "jekyll serve --draft",
+    "deploy": "firebase deploy --token $FIREBASE_TOKEN"
+  },
+  "devDependencies": {
+    "firebase-tools": "^3.19.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-css": "^0.1.0",
+    "gulp-uglyfly": "^1.4.2"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.0.1"
+  }
+}

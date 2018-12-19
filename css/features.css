@@ -1,0 +1,98 @@
+.features {
+  font-family: "WeblySleek UI";
+  padding: 100px 0 100px;
+}
+
+.features .heading {
+  font-family: "Yerevanyan-bold";
+  color: #00363A;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+.features .subheading {
+  color: #00363A;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 38px;
+}
+
+.about-heading {
+  font-family: "Yerevanyan";
+  color: #00363A;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 35px;
+}
+
+.about-screenshot {
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.more {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.more-link {
+  font-family: "WeblySleek UI";
+  color: #030303;
+  font-size: 14px;
+  border: 0.75px solid #B7B7B7;
+  background-color: #FFFFFF;
+  padding: 12px 15px;
+  font-weight: 600;
+  display: block;
+  width: fit-content;
+}
+
+.more-link:hover {
+  color: #030303;
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 991px) { 
+  
+  .features .heading {
+    font-size: 25px;
+  }
+
+
+  .about-heading {
+    font-size: 18px;
+ }
+
+  .about-text {
+   font-size: 16px;
+ }
+
+}
+
+@media only screen and (max-width: 767px) { 
+  
+ .about-screenshot:last-of-type {
+   display: none;
+
+ }
+  
+ .about-heading {
+    font-size: 16px;
+ }
+
+ .about-text {
+   font-size: 14px;
+ }
+}

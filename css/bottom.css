@@ -1,0 +1,169 @@
+
+/* BOTTOM */
+
+
+.bottom-jumbotron  {
+      margin-top: 23px;
+      width:180% ; 
+      background-color: #009AA2;
+      position: relative;
+      height: 71px;
+      background-color: #F7F8F9;
+      margin-left: -37%;
+}
+
+ .bottom-mob {
+  display: none;
+ }
+ 
+.bottom-content {
+    
+     padding-top: 15px;
+     width:73%;
+     margin-left: 20.5%;
+     word-spacing: nowrap;
+
+ }
+
+.bottom-logo{
+  margin-right: -5%;
+
+}
+
+
+.bottom  {
+    display: inline-block;
+  
+
+}
+.bottom-icons {
+  white-space: nowrap;
+
+}
+
+.him-name  {
+    color: #009AA2;
+    font-size: 25px;
+}
+
+.bottom-text {
+  height: 13px;
+  width: 285px;
+  color: #000000;
+  font-family: "WeblySleek UI";
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.55;
+  margin-left: -1%;
+  
+}
+
+
+
+.copyright   {
+  
+   white-space: nowrap;
+
+}
+
+.bottom-logo{
+  margin-right: 1%;
+
+}
+
+
+
+ .terms-use{ 
+    margin-left: -3%;
+ }
+
+.privacy{
+
+  margin-left: -10%;
+}
+
+
+
+
+
+button {
+  outline:none;
+}
+
+
+
+
+a:focus {
+  outline:none;
+
+
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+  
+
+  @media only screen and (max-width: 992px) {
+
+ 
+
+  .bottom-desk {
+  display: none;
+ }
+
+
+  .bottom-mob {
+  display: block;
+ }
+
+
+.bottom-content {
+    
+     margin-left:-1%
+     word-spacing: nowrap;
+
+ }
+
+
+ .terms-use{ 
+    margin-left: -1%;
+ }
+
+.privacy{
+
+  margin-left: 2%;
+}
+
+
+.bottom-jumbotron  {
+     
+      height: 121px;
+    
+}
+
+.logo {
+  margin-bottom: 2%;
+
+}
+
+ .rights{
+  margin-left: 2%;
+
+ }
+
+ .privacy{
+
+  margin-top: 0.5%;
+}
+
+.priv-div {
+  margin-bottom: 2%;
+}
+
+  }

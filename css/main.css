@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Yerevanyan";
+  src: url("/assets/fonts/Yerevanyan Regular.otf");
+}
+
+@font-face {
+  font-family: "Yerevanyan-bold";
+  src: url("/assets/fonts/Yerevanyan Regular Bold.otf");
+}
+
+/*@font-face {
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Regular.ttf");
+}*/
+
+.main {
+  padding-top: 200px;
+  margin-bottom: 60px;
+}
+
+
+.large-heading {
+  font-family: "Yerevanyan" !important;
+  font-weight: 300;
+  color: #00363A;
+  font-size: 38px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  white-space: nowrap;
+}
+.bold-part {
+  font-weight: 300;
+}
+
+.description {
+  color: #00363A;
+  font-family: Yerevanyan;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.decription-div{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.description1{
+  margin-top: 25px;
+  margin-bottom: -1px;
+
+
+ }
+.description2{
+  color: #009AA2;
+  font-family: Yerevanyan;
+  font-size: 27px;
+  font-weight: 300;
+}
+
+.action-block {
+  margin-top: 30px;
+  display: flex;
+}
+
+.beta {
+  /*font-family: "Yerevanyan";*/
+  font-size: 16px;
+  color: #EF5350;
+  margin-left: 15px;
+  border: 3.2px solid #EF5350;
+  border-radius: 5px;
+  padding: 3px;
+  font-weight: 600;
+}
+
+.action-btn {
+  font-family: "Yerevanyan";
+  font-size: 14px;
+  font-weight: 300;
+  border: 0.75px solid white;
+  padding: 11px 8px;
+  margin-right: 16px;
+  line-height: 1;
+  border-radius: 5px;
+  display: block;
+  width: fit-content;
+  margin-top: 11px;
+  white-space: nowrap;
+}
+
+
+
+.try-btn:hover {
+  text-decoration: none;
+}
+
+.login-btn {
+  display: none;
+  border-color: #B7B7B7;
+  color: #030303;
+}
+
+.login-btn:hover {
+  text-decoration: none;
+  color: #030303;
+}
+
+.illustration {
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+
+  .description1{
+    font-size: 37px;
+  }
+
+  .illustration {
+    margin-top: 60px;
+
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+
+  .login-btn {
+    display: block;
+  }
+
+  .illustration {
+    margin-top: 30px;
+    width: 100%;
+    float: center;
+  }
+
+  .hide-992 {
+     display: none;
+  }
+  
+
+}
+
+@media only screen and (max-width: 767px) {
+
+ .large-heading, .bullet, .people {
+   font-size: 25px;
+   float: center;
+ } 
+  
+ .description, .description1 {
+  font-size: 22px;
+ }
+
+
+  .description2 {
+  font-size: 18px;
+ }
+}

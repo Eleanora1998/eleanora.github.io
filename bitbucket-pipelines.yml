@@ -1,0 +1,18 @@
+# This is a sample build configuration for Other.
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: aerobatic/jekyll:latest
+clone:
+  depth: 1
+pipelines:
+  branches:
+    master:
+     - step:
+        name: Deploy to production
+        deployment: production
+        script:
+          - npm install
+          - JEKYLL_ENV=production npm run build
+          - npm run deploy

@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Regular.ttf");
+}
+@font-face {
+  font-family: "Nunito-bold";
+  src: url("/assets/fonts/Nunito-Bold.ttf");
+}
+
+
+.nav-link{
+  white-space: nowrap;
+}
+
+.description1 {
+    margin-top: 10px;
+    margin-bottom: -1px;
+}
+
+.price-value{
+	text-align: center;
+} 
+
+
+.price-value3{
+	font-size: 55px;
+	margin-top: 55px !important;
+  white-space: nowrap;
+} 
+
+.sub-value3 {
+	margin-top: 10px;
+}
+
+
+.item-footer1 .text {
+	margin-top: 15px !important;
+}
+
+.item-footer3 .text {
+    margin-top: 34px !important;
+}
+
+.pricing .subheading {
+  text-align: center;
+}
+.item3 .sub-value span{
+margin-top: 21px;
+}
+
+
+.pricing .try-btn3{
+	margin-top: 17px !important;
+}
+
+ #advantages {
+  padding-bottom: 60px;
+ }
+
+  .nav-link,  .large-heading, .bullet, .people, .description, .section-title, .pricing .heading, .pricing .subheading, .price-value,
+ .section-title-adv, .call-to-action-text, .titles, .item-footer1 .text, .faq .heading, .question-text, .features .heading,
+ .about-heading   {
+  font-family: 'Nunito', sans-serif !important;
+  
+}
+
+.section-title, .features .heading  {
+   font-family: 'Nunito-bold', sans-serif !important;
+   
+
+}
+.nav-action {
+  padding: 11px;
+  font-weight: 300 !important;
+}
+
+.beta {
+  /*font-family: "Yerevanyan";*/
+  font-size: 16px;
+  color: #EF5350;
+  margin-left: 12px;
+  border: 3.2px solid #EF5350;
+  border-radius: 5px;
+  padding: 5px 3px 5px 3px;
+  margin-top: -60px;
+  font-weight: 600:;
+}
+
+.call-to-action-text {
+  max-width: 750px;
+  font-family: "Nunito-bold" !important;
+} 
+
+.call-to-action {
+  font-family: "Nunito-bold"!important;
+  margin-top: -25px;
+}
+
+.large-heading, .description1{
+  font-size: 45px;
+}
+
+
+
+
+.nav-link {
+  margin-top:  -4px !important ;
+  font-weight: 300;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+
+
+ .item-footer .label {
+  margin-top: 20px;
+ }
+
+ .item-footer3 .text{
+  margin-top: 86px;}
+
+
+.text1 {
+    margin-top: 64px;
+}
+
+} 
+
+
+@media only screen and (max-width: 991px) {
+
+ .nav-item.nav-buttons .nav-link {
+    padding: 3px 11px 11px 11px;
+    margin-right: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+ .large-heading, .bullet, .people {
+   font-size: 22px;
+   float: center;
+ } 
+  
+
+ .description1 {
+  font-size: 22px;
+ }
+
+  .description2 {
+  font-size: 18px;
+ }
+
+ 
+  
+
+
+}

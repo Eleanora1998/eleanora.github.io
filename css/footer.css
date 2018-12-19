@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Regular.ttf");
+}
+
+.footer-mob {
+  display: none;
+}
+
+.footer-head {
+  font-family: "WeblySleek UI";
+  background-color: #009AA2;
+  padding: 28px 0;
+  display: flex;
+  align-items: center;
+  /*margin-bottom: 100px;*/
+}
+
+.footer-head .container {
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action {
+  font-family: "Yerevanyan-bold";
+  color: #FFFFFF;
+  font-size: 38px;
+  font-weight: 300;
+  margin-right: 35px;
+}
+
+.footer-head .try-btn {
+  font-family: "Yerevanyan";
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0.75px solid #009AA2;
+  background-color: #EF5350;
+  padding: 11px; 
+  border-radius: 5px;
+  white-space: nowrap;
+  font-weight: 300;
+}
+
+.footer-head .try-btn:hover {
+  background-color: #de4542;
+
+}
+
+.footer-head .try-btn:active{
+  background-color: #EF5350; 
+}
+
+.footer-body {
+  font-family: "WeblySleek UI";
+}
+
+.footer-body ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.footer-item {
+  opacity: 0.54;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer-item:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-item-head {
+  color: #00363A;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bottom-icons {
+  white-space: nowrap;
+}
+
+.bottom-icon {
+  color: #030303;
+  height: 22px; 
+  width: 28px;
+  font-weight: 300;
+  opacity: 0.44;
+   font-size: 1.5em;
+}
+
+.bottom-icon:hover{
+  opacity: 1;
+}
+
+.fa-linkedin-in{
+  margin-left: -2px;
+}
+
+.fa-youtube, .fa-google-plus-g {
+  margin-right: 2px;
+}
+
+.footer-bottom {
+  font-family: "WeblySleek UI";
+  /*background-color: #F7F8F9;*/
+  padding: 28px 0;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.bottom-block {
+  display: flex;
+}
+
+.bottom-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom .bottom-logo {
+  margin-right: 60px;
+}
+
+.bottom-block .links {
+  display: flex;
+  align-items: center;
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-text {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Yerevanyan";
+  opacity: 0.55;
+}
+
+.bottom-text small {
+  display: block;
+  margin-right: 54px;
+}
+
+.mail, .phone {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #000000;
+  font-weight: 300;
+}
+.social-media {
+  align-items: center;
+}
+.social-media, .bottom-text{
+  display: inline-block
+}
+.bottom-icons2 {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+
+  .footer-head .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.bottom-icons2 {
+  display: block;
+}
+.bottom-icons1 {
+  display: none;
+}
+  .call-to-action {
+    margin-bottom: 16px;
+    font-size: 22px;
+  }
+
+  .bottom-block {
+    flex-direction: column;
+  }
+
+  .footer-head .try-btn {
+    font-size: 14px;
+  }
+  .footer-bottom .bottom-logo {
+  margin-right: 60px;
+  margin-left: -15px;
+}
+
+  .bottom-block .links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bottom-text {
+    line-height: 1;
+  }
+
+
+  .bottom-text small {
+    margin: 3px 20px 3px 0;
+  }
+
+  
+ .links {
+ margin-top: -42px; 
+
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  
+  .footer-item {
+    font-size: 14px;
+  }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  
+   .footer-desk {
+    display: none;
+  }
+  .footer-mob {
+    display: block;
+    margin-top: 30px;
+  }
+  
+  .bottom-text {
+    font-size: 14px;
+  }
+
+
+   .bottom-text {
+    font-size: 14px;
+  }
+
+
+  .bottom-logo, .brand-name, .rights-mob, .social-medias, .contacts {
+     margin-right: auto;
+    margin-left: auto;
+   margin-top: 6px;
+  }
+  
+    .brand-name, .rights-mob,{
+    
+  }
+}

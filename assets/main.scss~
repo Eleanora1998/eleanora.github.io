@@ -1,0 +1,16 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+
+@import "css/logo-nav.css";
+@import "/css/main.css";
+@import "/css/solutions.css";
+@import "/css/advantages.css";
+@import "/css/pricing.css";
+@import "/css/faq.css";
+@import "/css/features.css";
+@import "/css/footer.css";
+@import "/css/bottom.css";
+@import "/css/media-queries.css";
+

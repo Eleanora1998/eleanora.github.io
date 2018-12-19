@@ -1,0 +1,182 @@
+#advantages {
+  padding-top: 30px;
+  background-image: url("/assets/images/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 1px;
+
+}
+
+.section-title #advantages {
+
+  color: #00363A;
+  font-family: Yerevanyan;
+  font-size: 45px;
+}
+
+.first-row {
+  margin-bottom: 100px;
+}
+
+.advantages-animation {
+  width: 100%;
+}
+
+
+
+.titles  {
+  color: #00363A;
+  font-family: Yerevanyan;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.advantages-text  {
+  font-family: "WeblySleek UI";
+  font-size: 18px;
+  font-weight: 300;
+  max-width: 420px;
+}
+
+
+
+.advantages-icons{
+  width: 50px;
+  max-height: 50px;
+  border: solid 1px transparent;
+  color:  rgb(0,154,162,.12);
+  display: table;
+  margin:  auto;
+  margin-top: 20px;
+
+
+}
+
+
+.adv-icon3, .adv-icon4, .adv-icon5{
+  margin-top: 24px;
+}
+
+.img-block, .advantages-item{
+  display: inline-block;
+  margin-top: 40px;
+  
+  }
+
+   .img-block{
+  margin-right: 20px;
+  height: 90px;
+  width: 90px;
+  border: solid 1px transparent;
+  border-radius: 50%;
+  background-color:  rgb(0,154,162,.12);
+  padding: auto;
+  margin-bottom: 15px;
+ }
+
+.advantages-item {
+  width:70%;
+
+}
+
+.second-row{
+  margin-top: 6%;
+}
+
+.inline-items{
+  display: flex;
+}
+@media only screen and (max-width: 1449px) {
+ 
+ .titles  {
+  font-size: 21px;
+ }
+}
+@media only screen and (max-width: 991px) {
+
+  .first-row {
+    margin-bottom: 0;
+  }
+
+  .second-row {
+    margin-top: 0;
+  }
+
+  .titles {
+    font-size: 18px;
+  }
+
+  .advantages-text {
+    font-size: 16px;
+    max-width: 550px;
+  }
+
+  
+.advantages-item4{
+  margin-top: 0;
+}
+.img-block, .advantages-item{
+  margin-top: 15px;
+  
+  }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+  .hidden-mobile {
+    display: none;
+  }
+
+
+  .titles {
+    font-size: 16px;
+  }
+
+  .advantages-text {
+    font-size: 14px;
+    max-width: 350px;
+  }
+
+
+
+
+}
+
+@media only screen and (max-width: 565px) {
+
+    .img-block {
+      max-width: 50px;
+      height: 50px;
+     margin-bottom: 5%;
+    }
+
+    .advantages-icons{
+      width: 25px;
+      max-height: 25px;
+      margin-top: 13px;
+
+  }
+}
+
+  @media only screen and (max-width: 400px) {
+
+    .img-block {
+     margin-bottom: 15%;
+    }
+
+   
+  }
+
+
+
+@media only screen and (max-width: 341px) {
+
+    .img-block {
+      max-width: 50px;
+    }
+
+  }
+
